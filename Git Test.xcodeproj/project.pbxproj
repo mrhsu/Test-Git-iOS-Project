@@ -21,6 +21,7 @@
 		F48A928D18FDE85100EBCFA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48A926F18FDE85100EBCFA1 /* UIKit.framework */; };
 		F48A929518FDE85100EBCFA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F48A929318FDE85100EBCFA1 /* InfoPlist.strings */; };
 		F48A929718FDE85100EBCFA1 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F48A929618FDE85100EBCFA1 /* Git_TestTests.m */; };
+		F48A92A218FDF20900EBCFA1 /* NHTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F48A92A118FDF20900EBCFA1 /* NHTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F48A929218FDE85100EBCFA1 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		F48A929418FDE85100EBCFA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F48A929618FDE85100EBCFA1 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		F48A92A018FDF20900EBCFA1 /* NHTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHTest.h; sourceTree = "<group>"; };
+		F48A92A118FDF20900EBCFA1 /* NHTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		F48A925F18FDE85100EBCFA1 = {
 			isa = PBXGroup;
 			children = (
+				F48A92A018FDF20900EBCFA1 /* NHTest.h */,
+				F48A92A118FDF20900EBCFA1 /* NHTest.m */,
 				F48A927118FDE85100EBCFA1 /* Git Test */,
 				F48A929018FDE85100EBCFA1 /* Git TestTests */,
 				F48A926A18FDE85100EBCFA1 /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F48A928218FDE85100EBCFA1 /* NHViewController.m in Sources */,
+				F48A92A218FDF20900EBCFA1 /* NHTest.m in Sources */,
 				F48A927C18FDE85100EBCFA1 /* NHAppDelegate.m in Sources */,
 				F48A927818FDE85100EBCFA1 /* main.m in Sources */,
 			);
